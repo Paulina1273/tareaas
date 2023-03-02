@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		
+		<title>El título del documento va aquí</title>
+		<style>
+			header{
+			background-color: Salmon;
+			font-size:30px;
+			}
+			nav{
+			background-color: Fuchsia;
+			font-size:20px;
+			}
+			section{
+			background-color: Gainsboro;
+			}
+			footer{
+			background-color: Aqua;
+			font-size:10px;
+			}
+		</style>
+		<script>
+			document.getElementById("demo").innerHTML= "Hello JavaScriptl"
+			
+		</script>
+	</head>
+
+<body>
+	<header>hola holaa</header>
+
+	<nav><a href="html/bio.html">bio</a> asociaciones</nav>
+	
+	<section>
+		<p>Aquí voy a comenzar a poner una sección</p>
+		<p>Puedo escribir más cosas</p>
+		<p id="demo"> https://www.instagram.com/paulina1273/ </p> 
+		<p id="crecer"> este parrafo se hace grande y pequeño </p>
+	</section>
+	<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+	<button type="button" onclick="document.getElementById('crecer').style.fontSize='50px'">me hago grande jejeje</button>
+	<button type="button" onclick="document.getElementById('crecer').style.fontSize='20px'">me hago pequeño jejeje</button>
+	<button type="button" onclick="document.getElementById('crecer').style.color='Salmon'"> salmon jejeje</button>
+	
+
+	<footer>esto es footer o pie de página</footer>
+	
+</body>
+
+</html>
+
